@@ -1,0 +1,2 @@
+ResultSet rs=st.executeQuery("update administrator set cname='"+cname+"',empid='"+empid+"',branches="+branches+",nos='"+nos+"',email='"+email+"',contactno='"+contactno+"',web='"+web+"',address='"+address+"',estyear='"+estyear+"' where ccode='"+ccode+"'");
+out.println("Record Edited Successfully");
