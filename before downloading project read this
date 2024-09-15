@@ -1,0 +1,12 @@
+Actually what happened is we were not able to upload node_modules the limit is 100 files and 25 mb at a time so directly only backend.zip and frontend.zip
+
+
+create a folder Placement portal
+In that folder unzip backend and front end separately
+after that in command prompt navigate to this backend folder and before running just type is command
+"npm install --save"
+"npm start"
+
+Repeat the same thing for front end also.
+
+in another command prompt run "mongod" which will start mongodb 
